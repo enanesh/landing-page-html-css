@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+
+.header {
+    padding: 20px; 
+    color: rgb(147, 181, 208);
+    background-color: rgb(247, 228, 231); 
+     
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 70px;
+   
+}
+
+.header div {
+    padding-top: 5px;
+    margin-right: 20px;
+    float: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    background-color: rgb(247, 228, 231);
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+.skincare {
+    height: 400px;
+    width: 50%;
+    margin-bottom: 20px;
+    background-image: url(https://plugins-media.makeupar.com/smb/blog/post/2021-05-28/394bcea3-e2ac-4d96-b8cd-df695e396628.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+
+
+.article  {
+    background-color: rgb(209, 179, 208);
+    color:black;
+    margin-bottom: 20px;
+    padding:50px;
+    height: 150px;
+    font-size: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/*Removes the link color from nav tag*/
+  a {
+    color:rgb(147, 181, 208);
+    text-decoration: none;
+  }
+
+  .float-left {
+    float: left;
+    margin-right:10px;
+    max-height: 160px;
+  }
